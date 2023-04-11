@@ -5,7 +5,7 @@
 
 ### Description:
 
-<a href="https://michaelngcen.github.io/AnimeJS/" target=”_blank”>KITO</a> is an app that allows users to search for anime using the Jikan API.
+<a href="https://michaelngcen.github.io/KITO/" target=”_blank”>KITO</a> is an app that allows users to search for anime using the Jikan API.
 
 ### Screenshots: 
 Landing Page
