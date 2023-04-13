@@ -24,10 +24,10 @@ body {
 
 #search_form {
   position: relative;
-  display: flex;
+  display: none;
   justify-content: center;
   align-items: center;
-  margin-top: 50px;
+  margin-top: 100px;
 }
 
 .input-field {

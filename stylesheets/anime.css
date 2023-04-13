@@ -5,7 +5,7 @@
   height: 80vh;
   width: auto;
   text-align: center;
-  background-image: url(./assets/onePiece.jpg);
+  background-image: url(../assets/onePiece.jpg);
 }
 
 .landingBackground2 {
@@ -15,7 +15,7 @@
   height: 80vh;
   width: auto;
   text-align: center;
-  background-image: url(./assets/aot.jpg);
+  background-image: url(../assets/aot.jpg);
 }
 
 .landingBackground3 {
@@ -25,7 +25,7 @@
   height: 80vh;
   width: auto;
   text-align: center;
-  background-image: url(./assets/naruto.jpg);
+  background-image: url(../assets/naruto.jpg);
 }
 
 .logoName {

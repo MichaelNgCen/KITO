@@ -5,11 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>KITO</title>
-    <script src="./anime.js"></script>
-    <script src="./search.js"></script>
-    <link rel="stylesheet" href="./anime.css" />
-    <link rel="stylesheet" href="./cssReset.css" />
-    <link rel="shortcut icon" type="image/x-icon" href="assets/favicon.ico?">
+    <script src="./scripts/anime.js"></script>
+    <script src="./scripts/click.js"></script>
+    <link rel="stylesheet" href="./stylesheets/anime.css" />
+    <link rel="stylesheet" href="./stylesheets/cssReset.css" />
+    <link rel="stylesheet" href="./stylesheets/search.css" />
+    <link rel="shortcut icon" type="image/x-icon" href="assets/favicon.ico?" />
     <link
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
@@ -18,13 +19,20 @@
     />
   </head>
   <body>
+    <nav>
+      <div class="personal-logo-container">
+        <a href="./index.html">
+          <img src="./assets/kito.svg" id="personal-logo"
+        /></a>
+      </div>
+    </nav>
     <div class="landing">
       <div class="landingBackground1">
         <div class="personal-logo-container">
           <a href="./index.html">
             <img src="./assets/kito.svg" id="personal-logo"
           /></a>
-          <a href="./search.html" class="search__btn click">
+          <a href="#" class="search__btn">
             <i class="fas fa-search"></i>
           </a>
         </div>
@@ -70,26 +78,96 @@
         </div>
       </div>
     </div>
+    <form id="search_form">
+      <div class="row">
+        <div class="input-field">
+          <input
+            placeholder="Search..."
+            name="search"
+            id="search"
+            type="text"
+            class="validate"
+          />
+        </div>
+      </div>
+    </form>
+    <div id="search-results" class="container"></div>
     <div class="footer">
       <div class="row">
         <div class="column">
           <h3>MICHAEL'S TOP 5</h3>
           <ul class="footerLinks">
-            <li><a class="footerLink" href="https://myanimelist.net/anime/21/One_Piece">One Piece</a></li>
-            <li><a class="footerLink" href="https://myanimelist.net/anime/20/Naruto?q=naruto&cat=anime">Naruto</a></li>
-            <li><a class="footerLink" href="https://myanimelist.net/anime/813/Dragon_Ball_Z?q=dragon%20ball%20z&cat=anime">Dragon Ball</a></li>
-            <li><a class="footerLink" href="https://myanimelist.net/anime/16498/Shingeki_no_Kyojin?q=attac&cat=anime">Attack on Titan</a></li>
-            <li><a class="footerLink" href="https://myanimelist.net/anime/550/Yu%E2%98%86Gi%E2%98%86Oh?q=yu%20gi&cat=anime">Yu-gi-oh</a></li>
+            <li>
+              <a
+                class="footerLink"
+                href="https://myanimelist.net/anime/21/One_Piece"
+                >One Piece</a
+              >
+            </li>
+            <li>
+              <a
+                class="footerLink"
+                href="https://myanimelist.net/anime/20/Naruto?q=naruto&cat=anime"
+                >Naruto</a
+              >
+            </li>
+            <li>
+              <a
+                class="footerLink"
+                href="https://myanimelist.net/anime/813/Dragon_Ball_Z?q=dragon%20ball%20z&cat=anime"
+                >Dragon Ball</a
+              >
+            </li>
+            <li>
+              <a
+                class="footerLink"
+                href="https://myanimelist.net/anime/16498/Shingeki_no_Kyojin?q=attac&cat=anime"
+                >Attack on Titan</a
+              >
+            </li>
+            <li>
+              <a
+                class="footerLink"
+                href="https://myanimelist.net/anime/550/Yu%E2%98%86Gi%E2%98%86Oh?q=yu%20gi&cat=anime"
+                >Yu-gi-oh</a
+              >
+            </li>
           </ul>
         </div>
         <div class="column">
           <h3>FOLLOW ME</h3>
           <ul class="footerLinks">
-            <li><a class="footerLink" href="https://www.instagram.com/michaelngcen/?hl=en">Instagram</a></li>
-            <li><a class="footerLink" href="https://github.com/MichaelNgCen">GitHub</a></li>
-            <li><a class="footerLink" href="https://www.linkedin.com/in/michaelngcen/">LinkedIn</a></li>
-            <li><a class="footerLink" href="https://wellfound.com/u/michael-ng-cen">WellFound</a></li>
-            <li><a class="footerLink" href="https://www.michaelngcen.com">Portfolio</a></li>
+            <li>
+              <a
+                class="footerLink"
+                href="https://www.instagram.com/michaelngcen/?hl=en"
+                >Instagram</a
+              >
+            </li>
+            <li>
+              <a class="footerLink" href="https://github.com/MichaelNgCen"
+                >GitHub</a
+              >
+            </li>
+            <li>
+              <a
+                class="footerLink"
+                href="https://www.linkedin.com/in/michaelngcen/"
+                >LinkedIn</a
+              >
+            </li>
+            <li>
+              <a
+                class="footerLink"
+                href="https://wellfound.com/u/michael-ng-cen"
+                >WellFound</a
+              >
+            </li>
+            <li>
+              <a class="footerLink" href="https://www.michaelngcen.com"
+                >Portfolio</a
+              >
+            </li>
           </ul>
         </div>
       </div>
