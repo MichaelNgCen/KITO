@@ -1,7 +1,6 @@
 <h1 align="center">
-<img width="400" alt="Screen Shot 2022-07-31 at 8 03 27 PM" src="https://user-images.githubusercontent.com/38708266/231070580-0de50d4d-9989-4e76-bbc2-97f3d9cc95ed.jpg">
+<img width="600" alt="Screen Shot 2022-07-31 at 8 03 27 PM" src="https://user-images.githubusercontent.com/38708266/231957226-2505fd09-01ac-4457-92f5-26f1f7bdc579.png">
 </h1>
-
 
 ### Description:
 
