@@ -15,7 +15,7 @@ Search Page
 
 <img width="400" alt="Screen Shot 2022-07-31 at 8 03 27 PM" src="https://user-images.githubusercontent.com/38708266/231075178-d86b8f44-b83a-4302-9f29-3b5cba0a9454.png">
 
-- DsearchAnime() function gets the value of a search input field, fetches data from Jikan API endpoint with the search query, and passes the resulting data to the updateDom() function which groups the data by type and renders it to the DOM.
+- SearchAnime() function gets the value of a search input field, fetches data from Jikan API endpoint with the search query, and passes the resulting data to the updateDom() function which groups the data by type and renders it to the DOM.
 
 <img width="275" alt="Screen Shot 2022-08-01 at 3 23 50 PM" src="https://user-images.githubusercontent.com/38708266/231073612-3f886aa1-e849-417b-bebe-796a962dbe23.png">
 
